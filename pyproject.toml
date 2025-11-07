@@ -1,0 +1,10 @@
+[project]
+name = "Quantum Transport Lecture Code"
+version = "0.0.1"
+
+[tool.pytest.ini_options]
+# import mode importlib is recommended:
+# https://docs.pytest.org/en/stable/explanation/goodpractices.html#which-import-mode
+addopts = [
+    "--import-mode=importlib",
+]
